@@ -26,6 +26,7 @@
   font-family: outfit;
   font-size: 1.2rem;
   font-weight: 100;
+  margin-bottom: 0 !important;
 }
 
 .header_banner--icons img {
@@ -93,6 +94,7 @@
   position: absolute;
   z-index: 10;
   display: none;
+  padding: 0 !important;
 }
 
 .header__top--menu .nav-submenu li a:hover {
@@ -129,33 +131,6 @@
   text-shadow: 0.5px 0px 10px rgba(67, 0, 0, 0.304);
 }
 
-.header__hero img {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  object-fit: cover;
-}
-
-.header__hero {
-  display: flex;
-  min-height: 80vh;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header__hero--texto {
-  color: #6d0315;
-  font-size: 2.4rem;
-  text-align: center;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 0.5rem;
-  text-shadow: 2px 1px 20px rgb(166, 166, 166);
-}
-
 .whatsapp-fixed {
   position: fixed;
   bottom: 2rem;
@@ -163,30 +138,6 @@
   width: 5rem;
 }
 
-.contato {
-  margin-top: 2rem;
-  padding: 1.2rem;
-  border-radius: 0.5rem;
-  border: none;
-  background-color: #4241417d;
-}
-
-.contato:hover {
-  transform: scale(1.08);
-  transition: 0.4s;
-}
-
-.contato a {
-  color: white;
-  text-shadow: 1px 1px 20px rgb(0, 0, 0);
-  font-size: 1rem;
-  text-decoration: none;
-}
-
-.contato a:hover {
-  color: #6d0315;
-  font-weight: 500;
-}
 /* Cards */
 
 .section2 {
@@ -219,6 +170,7 @@
     0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   border-radius: 0.2rem;
+  border: none !important;
 }
 
 #card1 {
@@ -542,12 +494,8 @@ footer p {
     font-size: 1rem !important;
   }
 
-  .header__hero--texto {
-    font-size: 1.5rem;
-  }
-
-  .contato a {
-    font-size: 0.8rem;
+  .carousel-item h5 {
+    font-size: 1.5rem !important;
   }
 
   .section2 h2 {
