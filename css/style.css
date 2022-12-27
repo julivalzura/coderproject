@@ -76,7 +76,7 @@
   display: block;
   color: #550614;
   font-size: 1.3rem;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   text-decoration: none;
 }
 
@@ -109,6 +109,25 @@
 }
 
 /* HEADER HERO */
+
+.carousel-inner .carousel-item img {
+  object-fit: cover;
+  background-position-x: 0%;
+  background-position-y: top;
+  height: 80vh;
+  width: 100%;
+}
+
+.carousel-item h5 {
+  color: #550614;
+  font-size: 3rem;
+}
+.carousel-item p {
+  color: #2b030b;
+  font-size: 1rem;
+  font-weight: 400;
+  text-shadow: 0.5px 0px 10px rgba(67, 0, 0, 0.304);
+}
 
 .header__hero img {
   height: 100%;
